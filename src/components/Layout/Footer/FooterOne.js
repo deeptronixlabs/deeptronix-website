@@ -113,7 +113,7 @@ export default function FooterNine() {
               </h1>
               <ul className="mt-3.5">
                 <li className="">
-                  <Link href="/project-details">
+                  <Link to="/about-us">
                     <div className="relative flex items-center gap-2 pr-5 overflow-hidden font-medium transition-all duration-300 group text-paragraph hover:text-purple hover:underline">
                       <svg
                         className="absolute transition-all duration-300 -left-2 group-hover:left-0"
@@ -138,7 +138,7 @@ export default function FooterNine() {
                   </Link>
                 </li>
                 <li className="">
-                  <Link href="/project-details">
+                  <Link to="/our-services">
                     <div className="relative flex items-center gap-2 overflow-hidden font-medium transition-all duration-300 group text-paragraph hover:text-purple hover:underline">
                       <svg
                         className="absolute transition-all duration-300 -left-2 group-hover:left-0"
@@ -204,7 +204,7 @@ export default function FooterNine() {
         <div className="h-full mx-auto border-t theme-container border-white/10">
           <div className="flex flex-wrap items-center justify-between w-full h-full">
             <span className="text-paragraph max-w-80">
-              2024 © All rights reserved by
+              {new Date().getFullYear()} © All rights reserved by
               <b className="text-main-black"> Deeptronix Sdn Bhd</b>
             </span>
             <div className="relative flex justify-center w-full sm:w-fit">
