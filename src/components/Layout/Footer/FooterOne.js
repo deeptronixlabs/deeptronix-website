@@ -228,7 +228,7 @@ export default function FooterNine() {
       <div className="w-full h-[80px] md:h-[65px] bg-white border-t border-blue-sass/10">
         <div className="h-full mx-auto border-t theme-container border-white/10">
           <div className="flex flex-wrap items-center justify-between w-full h-full">
-            <span className="text-paragraph max-w-80">
+            <span className="text-paragraph max-w-100">
               2025 © All rights reserved by
               <b className="text-main-black"> Deeptronix Sdn Bhd</b>
             </span>
