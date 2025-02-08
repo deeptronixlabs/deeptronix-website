@@ -29,9 +29,6 @@ export default function TestimonialOne() {
       >
         <div className="relative z-10 mx-auto theme-container">
           <div className="flex flex-col items-center">
-            <span className="inline-block px-5 py-3 mb-5 font-medium leading-none text-white rounded-full bg-purple">
-              Our Testimonials
-            </span>
             <h2 className="md:text-48 text-34 font-semibold text-white mb-[70px] text-center">
               CEO Statement
             </h2>
