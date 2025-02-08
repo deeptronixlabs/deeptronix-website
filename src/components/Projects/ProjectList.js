@@ -7,12 +7,11 @@ export default function ProjectList() {
       <div className="w-full mx-auto theme-container">
         <div className="flex flex-col items-center">
           <div className="py-0.5 px-5 bg-purple/5 border-purple/10 border rounded-[30px] font-medium text-purple mb-5">
-            <span>Our Cases Story</span>
+            <span>DT Solutions</span>
           </div>
           <div className="mb-[60px]">
             <h2 className="text-main-black font-semibold text-24 sm:text-48 text-center max-w-[819px]">
-              Our Journey to Success Navigating Challenges, Achieving
-              Milestones, and Building a Legacy
+              Transform Your Data into Action with Custom AI
             </h2>
           </div>
         </div>
@@ -20,9 +19,9 @@ export default function ProjectList() {
           <div data-aos="fade-left" className="col-span-4">
             <div className="pb-[92px] pr-[30px] w-full bg-white relative">
               <img
-                src="/assets/images/projects/1.webp"
+                src="/assets/images/home-five/hero/DTinsight.png"
                 alt=""
-                className="w-full max-w-[380px]"
+                className="w-full max-w-[380px] rounded-2xl"
               />
               <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
                 <img
@@ -31,12 +30,12 @@ export default function ProjectList() {
                   className="absolute right-2 top-bottom-moving"
                 />
                 <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
+                DT Insight
                 </h1>
                 <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Lessons Learned from an IT Transformation Journey
+                Your Fully Customizable Remote Sensing Dashboard
                 </h2>
-                <Link to="/project-details">
+                <Link to="/our-solutions">
                   <div className="flex items-center gap-2 mt-4 group">
                     <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
                       Read More
@@ -64,9 +63,9 @@ export default function ProjectList() {
           <div data-aos="fade-left" data-aos-delay="100" className="col-span-4">
             <div className="pb-[92px] pr-[30px] w-full bg-white relative">
               <img
-                src="/assets/images/projects/2.webp"
+                src="/assets/images/home-five/hero/DTgis2.png"
                 alt=""
-                className="w-full max-w-[380px]"
+                className="w-full max-w-[380px] rounded-2xl"
               />
               <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
                 <img
@@ -75,12 +74,12 @@ export default function ProjectList() {
                   className="absolute right-2 top-bottom-moving"
                 />
                 <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
+                  DT GIS
                 </h1>
                 <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Cybersecurity Case Study Proactive Risk Management
+                  Innovative GIS Solutions by Deeptronix
                 </h2>
-                <Link to="/project-details">
+                <Link to="/our-solutions">
                   <div className="flex items-center gap-2 mt-4 group">
                     <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
                       Read More
@@ -108,9 +107,9 @@ export default function ProjectList() {
           <div data-aos="fade-left" data-aos-delay="200" className="col-span-4">
             <div className="pb-[92px] pr-[30px] w-full bg-white relative">
               <img
-                src="/assets/images/projects/3.webp"
+                src="/assets/images/home-five/hero/DTvision2.png"
                 alt=""
-                className="w-full max-w-[380px]"
+                className="w-full max-w-[380px] rounded-2xl"
               />
               <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
                 <img
@@ -119,12 +118,12 @@ export default function ProjectList() {
                   className="absolute right-2 top-bottom-moving"
                 />
                 <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
+                  DT Vision
                 </h1>
                 <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Leveraging Data Analytics for Business Growth
+                  Your Fully Customizable Computer Vision Platform
                 </h2>
-                <Link to="/project-details">
+                <Link to="/our-solutions">
                   <div className="flex items-center gap-2 mt-4 group">
                     <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
                       Read More
@@ -152,9 +151,9 @@ export default function ProjectList() {
           <div data-aos="fade-left" data-aos-delay="300" className="col-span-4">
             <div className="pb-[92px] pr-[30px] w-full bg-white relative">
               <img
-                src="/assets/images/projects/4.webp"
+                src="/assets/images/home-five/hero/DTagen.png"
                 alt=""
-                className="w-full max-w-[380px]"
+                className="w-full max-w-[380px] rounded-2xl"
               />
               <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
                 <img
@@ -163,12 +162,12 @@ export default function ProjectList() {
                   className="absolute right-2 top-bottom-moving"
                 />
                 <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
+                  DT Agent
                 </h1>
                 <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Lessons Learned from an IT Transformation Journey
+                  Transformative LLM Solutions for Your Needs
                 </h2>
-                <Link to="/project-details">
+                <Link to="/our-solutions">
                   <div className="flex items-center gap-2 mt-4 group">
                     <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
                       Read More
@@ -196,9 +195,9 @@ export default function ProjectList() {
           <div data-aos="fade-left" data-aos-delay="400" className="col-span-4">
             <div className="pb-[92px] pr-[30px] w-full bg-white relative">
               <img
-                src="/assets/images/projects/5.webp"
+                src="/assets/images/home-five/hero/DTgen2.png"
                 alt=""
-                className="w-full max-w-[380px]"
+                className="w-full max-w-[380px] rounded-2xl"
               />
               <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
                 <img
@@ -207,12 +206,12 @@ export default function ProjectList() {
                   className="absolute right-2 top-bottom-moving"
                 />
                 <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
+                  DT Gen
                 </h1>
                 <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Lessons Learned from an IT Transformation Journey
+                  Cutting-Edge Generative AI for Predictive Visualization
                 </h2>
-                <Link to="/project-details">
+                <Link to="/our-solutions">
                   <div className="flex items-center gap-2 mt-4 group">
                     <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
                       Read More
@@ -237,185 +236,10 @@ export default function ProjectList() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-delay="500" className="col-span-4">
-            <div className="pb-[92px] pr-[30px] w-full bg-white relative">
-              <img
-                src="/assets/images/projects/6.webp"
-                alt=""
-                className="w-full max-w-[380px]"
-              />
-              <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
-                <img
-                  src="/assets/images/home-five/hero/about-card-shape.webp"
-                  alt=""
-                  className="absolute right-2 top-bottom-moving"
-                />
-                <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
-                </h1>
-                <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Leveraging Data Analytics for Business Growth
-                </h2>
-                <Link to="/project-details">
-                  <div className="flex items-center gap-2 mt-4 group">
-                    <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                      Read More
-                    </span>
-                    <svg
-                      width="7"
-                      height="11"
-                      viewBox="0 0 7 11"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                        stroke="#ffff"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="600" className="col-span-4">
-            <div className="pb-[92px] pr-[30px] w-full bg-white relative">
-              <img
-                src="/assets/images/projects/7.webp"
-                alt=""
-                className="w-full max-w-[380px]"
-              />
-              <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
-                <img
-                  src="/assets/images/home-five/hero/about-card-shape.webp"
-                  alt=""
-                  className="absolute right-2 top-bottom-moving"
-                />
-                <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
-                </h1>
-                <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Lessons Learned from an IT Transformation Journey
-                </h2>
-                <Link to="/project-details">
-                  <div className="flex items-center gap-2 mt-4 group">
-                    <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                      Read More
-                    </span>
-                    <svg
-                      width="7"
-                      height="11"
-                      viewBox="0 0 7 11"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                        stroke="#ffff"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="700" className="col-span-4">
-            <div className="pb-[92px] pr-[30px] w-full bg-white relative">
-              <img
-                src="/assets/images/projects/8.webp"
-                alt=""
-                className="w-full max-w-[380px]"
-              />
-              <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
-                <img
-                  src="/assets/images/home-five/hero/about-card-shape.webp"
-                  alt=""
-                  className="absolute right-2 top-bottom-moving"
-                />
-                <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
-                </h1>
-                <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Lessons Learned from an IT Transformation Journey
-                </h2>
-                <Link to="/project-details">
-                  <div className="flex items-center gap-2 mt-4 group">
-                    <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                      Read More
-                    </span>
-                    <svg
-                      width="7"
-                      height="11"
-                      viewBox="0 0 7 11"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                        stroke="#ffff"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="800" className="col-span-4">
-            <div className="pb-[92px] pr-[30px] w-full bg-white relative">
-              <img
-                src="/assets/images/projects/9.webp"
-                alt=""
-                className="w-full max-w-[380px]"
-              />
-              <div className="group shadow-card pl-5 pr-5 md:pl-10 md:pr-16 lg:pl-5 lg:pr-5 xl:pl-10 xl:pr-16 py-5 rounded-2xl absolute top-[50%] md:top-[63%] z-10 bg-white -right-0 h-[146px] hover:h-[185px] transition-all duration-300 hover:bg-it-blue hover:shadow-blue-card hover:-translate-y-[22px] overflow-hidden h5-story_slider_active_card">
-                <img
-                  src="/assets/images/home-five/hero/about-card-shape.webp"
-                  alt=""
-                  className="absolute right-2 top-bottom-moving"
-                />
-                <h1 className="transition-all duration-300 text-paragraph group-hover:text-white">
-                  February 25, 2024
-                </h1>
-                <h2 className="text-18 sm:text-20 font-semibold mt-3 max-w-[255px] group-hover:text-white">
-                  Leveraging Data Analytics for Business Growth
-                </h2>
-                <Link to="/project-details">
-                  <div className="flex items-center gap-2 mt-4 group">
-                    <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                      Read More
-                    </span>
-                    <svg
-                      width="7"
-                      height="11"
-                      viewBox="0 0 7 11"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                        stroke="#ffff"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
+          
         </div>
-        <div className="w-full flex justify-center mt-[55px]">
-          <Link to="/project-details">
+        {/* <div className="w-full flex justify-center mt-[55px]">
+          <Link to="/our-solutions">
             <div className="inline-flex py-3 bg-transparent home-two-btn-bg group border-purple/10 before:bg-purple after:bg-purple">
               <span className="relative z-10 text-base font-semibold transition-all duration-300 delay-150 text-main-black group-hover:text-white font-inter">
                 View More Projects
@@ -439,7 +263,7 @@ export default function ProjectList() {
               </svg>
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

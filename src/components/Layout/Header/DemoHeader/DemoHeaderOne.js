@@ -97,6 +97,9 @@ export default function DemoHeaderOne() {
                   <li className="font-semibold text-paragraph hover:underline hover:text-purple">
                     <Link to="/our-services">Our Services</Link>
                   </li>
+                  <li className="font-semibold text-paragraph hover:underline hover:text-purple">
+                    <Link to="/our-solutions">Our Solutions</Link>
+                  </li>
                   
                   {/* <li className="relative group">
                     <a

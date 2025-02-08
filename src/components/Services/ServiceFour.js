@@ -89,7 +89,7 @@ const tabs = [
   { name: "first", label: "Mission", icon: <PrIcon /> },
   { name: "second", label: "Vision", icon: <ServiceIcon /> },
   // { name: "four", label: " Sales and Distribution", icon: <SalesIcon /> },
-  // { name: "five", label: "Legal & Regulatory Compliance", icon: <LegalIcon /> },
+  // { name: "five", label: "Legal & Regulatory Compliance", icon: <LegalIcon /> }
   
 ];
 

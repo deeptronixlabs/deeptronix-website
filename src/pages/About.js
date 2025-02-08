@@ -8,17 +8,19 @@ import AboutTestimonial from "../components/Testimonials/AboutTestimonial";
 import AboutTeam from "../components/Team/AboutTeam";
 import InnerPageLayout from "../components/Layout/InnerPageLayout";
 import Misivisi from "../components/Services/ServiceFour";
+import ServiceTwo from "../components/Services/ServiceTwo";
+
 
 
 
 export default function About() {
   return (
     <InnerPageLayout>
-      <BreadCrumb pageTitle="About" currentPage="About" to="/about" />
+      <BreadCrumb pageTitle="About Us" currentPage="About Us" to="/about-us" />
       <AboutCompany />
       <FunFactCounterTwo />
-      <Misivisi/>
-
+      {/* <Misivisi/> */}
+      <ServiceTwo/>
       <AboutBenefit />
     </InnerPageLayout>
   );

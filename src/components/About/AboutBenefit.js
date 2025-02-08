@@ -20,9 +20,9 @@ export default function AboutBenefit() {
               <img
                 src="./assets/images/about/ourvalue.png"
                 alt=""
-                className="max-w-full"
+                className="max-w-full rounded-2xl"
               />
-              <button
+              {/* <button
                 type="button"
                 aria-label="play-video"
                 className="absolute flex items-center space-x-8 video-play-btn ml-7 sm:ml-0"
@@ -46,7 +46,7 @@ export default function AboutBenefit() {
                   <div className="absolute w-[130%] h-[130%] rounded-full h5-play-btn-line2"></div>
                   <div className="absolute w-[160%] h-[160%] rounded-full h5-play-btn-line3"></div>
                 </span>
-              </button>
+              </button> */}
             </div>
             <div className="flex items-center col-span-6">
               <div className="grid grid-cols-3 sm:grid-cols-6 gap-[30px] items-stretch">

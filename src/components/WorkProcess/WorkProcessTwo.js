@@ -2,22 +2,22 @@ import React from "react";
 
 export default function WorkProcessTwo() {
   return (
-    <section id="workingProcess" className="bg-white">
+    <section id="workingProcess" className="bg-white py-20 md:py-[130px]" style={{paddingBottom:"100px"}}>
       <div className="theme-container mx-auto grid grid-cols-6 lg:grid-cols-12 gap-[30px]">
         <div className="col-span-6">
           <h1 className="px-5 bg-main-gray border border-it-blue/20 text-it-blue font-medium rounded-[30px] w-fit">
-            Working Process
+            AI-Powered Solutions Consulting
           </h1>
           <h2 className="max-w-[747px] font-semibold text-24 sm:text-48 text-main-black mt-5">
-            Four working processes commonly employed by IT businesses
+          We offer tailored consulting to help businesses effectively use AI, remote sensing, and computer vision.
           </h2>
           <div className="w-fit relative mt-[88px]">
             <img
-              src="/assets//images/home-seven/process-1.png"
+              src="/assets/images/home-five/hero/services2.png"
               alt=""
-              className=""
+              style={{borderRadius:"16px"}}
             />
-            <button className="w-[50px] sm:w-[100px] aspect-square rounded-[10px] flex justify-center items-center absolute -bottom-[25px] sm:-bottom-[50px] right-0 bg-it-blue">
+            {/* <button className="w-[50px] sm:w-[100px] aspect-square rounded-[10px] flex justify-center items-center absolute -bottom-[25px] sm:-bottom-[50px] right-0 bg-it-blue">
               <svg
                 width="22"
                 height="24"
@@ -30,7 +30,7 @@ export default function WorkProcessTwo() {
                   fill="white"
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="col-span-6 flex flex-col gap-[30px]">
@@ -38,9 +38,10 @@ export default function WorkProcessTwo() {
           <div className="grid grid-cols-6 gap-12 md:grid-cols-12">
             <div className="col-span-6">
               <img
-                src="/assets/images/home-seven/process-2.png"
+                src="/assets/images/home-five/hero/services3.jpg"
                 alt=""
-                className=""
+                className="rounded-lg"
+                style={{height:"250px"}}
               />
             </div>
             <div className="col-span-6">
@@ -49,11 +50,10 @@ export default function WorkProcessTwo() {
                   <h1 className="font-semibold text-it-blue">01</h1>
                 </div>
                 <h1 className="mt-4 mb-3 font-semibold text-18 text-main-black">
-                  Assessment & Planning
+                  AI Strategy Development
                 </h1>
                 <p className="text-paragraph">
-                  Evaluate IT systems, infrastructure, processes, and
-                  capabilities to identify strengths, weakness, inefficiencies,
+                  Crafting customized AI roadmaps to enhance your operations and decision-making.
                 </p>
               </div>
             </div>
@@ -62,9 +62,10 @@ export default function WorkProcessTwo() {
           <div className="grid grid-cols-6 gap-12 md:grid-cols-12">
             <div className="col-span-6">
               <img
-                src="/assets/images/home-seven/process-3.png"
+                src="/assets/images/home-five/hero/services4.png"
                 alt=""
-                className=""
+                className="rounded-lg"
+                style={{height:"250px", width:"500px"}}
               />
             </div>
             <div className="col-span-6">
@@ -73,11 +74,10 @@ export default function WorkProcessTwo() {
                   <h1 className="font-semibold text-it-blue">02</h1>
                 </div>
                 <h1 className="mt-4 mb-3 font-semibold text-18 text-main-black">
-                  Design and Architecture
+                	Remote Sensing Solutions
                 </h1>
                 <p className="text-paragraph">
-                  Define the desired future state of IT systems, infrastructure,
-                  an operations aligned with business objectives
+                 Advising on satellite data integration, analysis, and applications for industries like agriculture, forestry, and disaster management.
                 </p>
               </div>
             </div>
@@ -86,9 +86,10 @@ export default function WorkProcessTwo() {
           <div className="grid grid-cols-6 gap-12 md:grid-cols-12">
             <div className="col-span-6">
               <img
-                src="/assets/images/home-seven/process-4.png"
+                src="/assets/images/home-five/hero/services5.png"
                 alt=""
-                className=""
+                className="rounded-lg"
+                style={{height:"250px", width:"500px"}}
               />
             </div>
             <div className="col-span-6">
@@ -97,11 +98,10 @@ export default function WorkProcessTwo() {
                   <h1 className="font-semibold text-it-blue">03</h1>
                 </div>
                 <h1 className="mt-4 mb-3 font-semibold text-18 text-main-black">
-                  Implementation & Execution
+                	Computer Vision Implementation
                 </h1>
                 <p className="text-paragraph">
-                  Adopt agile methodologies iterative and incremental delive
-                  transformation initiatives, allowing for flexibility
+                Providing insights on deploying image classification, object detection, and other advanced computer vision technologies.
                 </p>
               </div>
             </div>
@@ -110,9 +110,10 @@ export default function WorkProcessTwo() {
           <div className="grid grid-cols-6 gap-12 md:grid-cols-12">
             <div className="col-span-6">
               <img
-                src="/assets/images/home-seven/process-5.png"
+                src="/assets/images/home-five/hero/services6.png"
                 alt=""
-                className=""
+                className="rounded-lg"
+                style={{height:"250px", width:"500px"}}
               />
             </div>
             <div className="col-span-6">
@@ -121,11 +122,10 @@ export default function WorkProcessTwo() {
                   <h1 className="font-semibold text-it-blue">04</h1>
                 </div>
                 <h1 className="mt-4 mb-3 font-semibold text-18 text-main-black">
-                  Monitoring & Optimization
+                	Custom AI & Geospatial Solutions
                 </h1>
                 <p className="text-paragraph">
-                  Define key performance indicators a metrics to track the
-                  progress a impact of IT transformation initiatives
+                Designing and optimizing tools and platforms to meet your specific business requirements.
                 </p>
               </div>
             </div>

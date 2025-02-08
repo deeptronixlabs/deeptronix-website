@@ -16,7 +16,9 @@ export default function AboutCompany() {
               Pioneering innovative digital solutions, Unlocking limitless potential.
               </h1>
               <p className="mt-5 md:mt-10 text-paragraph">
-              Deeptronix Sdn Bhd, established in August 2022, is a multidisciplinary start-up specializing in Artificial Intelligence, Quantum Computing, Remote Sensing, and Geospatial Solutions. By integrating advanced technologies such as Deep Learning, Machine Learning, and Quantum Computing with diverse datasets, we deliver high-impact, tailored digital solutions.
+              At Deeptronix Sdn Bhd, we are at the forefront of innovation, delivering cutting-edge AI-powered solutions for remote sensing and computer vision. Our expertise lies in creating intelligent dashboards that integrate satellite, drone, IoT, and AI technologies to address challenges in agriculture, forestry, environmental monitoring, and more.
+              <br/><br/>Driven by a passion for transforming data into actionable insights, our solutions are tailored to local needs, enabling businesses and organizations to make informed decisions with precision and efficiency. Explore the future of Artificial Intelligence with Deeptronix – where technology meets vision.
+
               </p>
               <hr className="mt-10 border-purple/10" />
               <div className="w-full grid grid-cols-1 sm:grid-cols-2 mt-[50px] gap-8 md:gap-[70px]">

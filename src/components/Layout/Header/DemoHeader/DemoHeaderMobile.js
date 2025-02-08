@@ -6,6 +6,7 @@ const menuData = [
   { title: "Home", href: "/" },
   { title: "About Us", href: "/about-us" },
   { title: "Our Services", href: "/our-services" },
+  { title: "Our Solutions", href: "/our-solutions" },
 ];
 
 const MobileHeader = () => {

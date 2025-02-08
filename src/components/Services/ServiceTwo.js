@@ -56,10 +56,10 @@ export default function ServiceTwo() {
       <div className="relative z-10 w-full mx-auto theme-container">
         <div className="flex flex-col items-center w-full gap-5">
           <p className="px-5 py-1 text-white rounded-[30px] bg-blue-seo font-medium">
-            Explore Services
+            Our Mission & Vision
           </p>
           <h1 className="text-white text-24 md:text-48 font-semibold max-w-[684px] w-full text-center">
-            Advanced SEO services to help your business grow
+            We develop digital solutions that help our customer to overcome their problems
           </h1>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] mt-7 md:mt-[70px]">
@@ -77,7 +77,7 @@ export default function ServiceTwo() {
               <div className="animated_circle_sm4 bg-white/10"></div>
             </div>
             <div className="relative z-10">
-              <svg
+            <svg
                 width="58"
                 height="58"
                 viewBox="0 0 58 58"
@@ -85,44 +85,50 @@ export default function ServiceTwo() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M49.292 41.6126L54.5766 46.8972C56.6972 49.0177 56.6972 52.4558 54.5766 54.5763C52.4561 56.6969 49.018 56.6969 46.8975 54.5763L41.6128 49.2918M1.16699 24.5417C1.16699 11.6321 11.6323 1.16675 24.542 1.16675C37.4516 1.16675 47.917 11.6321 47.917 24.5417C47.917 37.4514 37.4516 47.9167 24.542 47.9167C11.6323 47.9167 1.16699 37.4514 1.16699 24.5417Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M34.7706 21.732C35.6635 21.1171 36.3986 20.3003 36.9163 19.3479C37.434 18.3955 37.7196 17.3343 37.75 16.2507C37.75 13.1426 35.375 10.4713 32 9.33508C31.2143 7.00799 29.8186 4.93436 27.9585 3.33049C26.0983 1.72662 23.8419 0.651276 21.4245 0.21663C19.0071 -0.218017 16.5174 0.0039608 14.2151 0.859407C11.9127 1.71485 9.88208 3.17242 8.335 5.08008C3.77562 5.5857 0.25 8.71633 0.25 12.5007C0.28036 13.5843 0.566001 14.6455 1.0837 15.5979C1.6014 16.5503 2.33655 17.3671 3.22938 17.982C2.99546 19.0529 2.45875 20.0342 1.68313 20.8088C1.59574 20.8962 1.53624 21.0076 1.51214 21.1288C1.48803 21.25 1.50041 21.3757 1.5477 21.4899C1.595 21.6041 1.67508 21.7017 1.77784 21.7703C1.88059 21.839 2.00141 21.8757 2.125 21.8757C2.14797 21.8757 2.17092 21.8744 2.19375 21.872L4.09188 21.6607C5.15931 21.5434 6.15607 21.0698 6.92125 20.3163C7.79012 21.9109 8.96356 23.3194 10.375 24.462C11.314 25.2185 11.9241 26.309 12.0775 27.5051C11.5962 27.5337 11.1444 27.7465 10.8159 28.0995C10.4875 28.4525 10.3077 28.9184 10.3138 29.4006C10.3199 29.8827 10.5115 30.3439 10.8488 30.6884C11.1861 31.033 11.6431 31.2343 12.125 31.2507V32.5007C11.6277 32.5007 11.1508 32.6982 10.7992 33.0499C10.4475 33.4015 10.25 33.8784 10.25 34.3757C10.25 34.873 10.4475 35.3499 10.7992 35.7015C11.1508 36.0532 11.6277 36.2507 12.125 36.2507H13.6444C14.0975 37.0138 14.7416 37.6457 15.5133 38.084C16.285 38.5224 17.1575 38.7522 18.045 38.7507H19.955C20.8425 38.7522 21.715 38.5224 22.4867 38.084C23.2584 37.6457 23.9025 37.0138 24.3556 36.2507H25.875C26.3723 36.2507 26.8492 36.0532 27.2008 35.7015C27.5525 35.3499 27.75 34.873 27.75 34.3757C27.75 33.8784 27.5525 33.4015 27.2008 33.0499C26.8492 32.6982 26.3723 32.5007 25.875 32.5007V31.2507C26.3568 31.2338 26.8136 31.0321 27.1505 30.6872C27.4874 30.3424 27.6786 29.8811 27.6843 29.3991C27.69 28.917 27.5098 28.4513 27.1812 28.0986C26.8525 27.7459 26.4006 27.5334 25.9194 27.5051C26.0699 26.3115 26.6775 25.2229 27.6144 24.4682C27.895 24.2426 28.1612 23.9963 28.4269 23.7482C29.1584 23.7459 29.8881 23.6745 30.6063 23.5351C30.9996 24.0569 31.4958 24.4924 32.0642 24.8149C32.6325 25.1374 33.2609 25.34 33.9106 25.4101L35.8088 25.6213C35.8307 25.6239 35.8529 25.6254 35.875 25.6257C35.9986 25.6257 36.1194 25.589 36.2222 25.5203C36.3249 25.4517 36.405 25.3541 36.4523 25.2399C36.4996 25.1257 36.512 25 36.4879 24.8788C36.4638 24.7576 36.4043 24.6462 36.3169 24.5588C35.5413 23.7842 35.0045 22.8029 34.7706 21.732ZM3.95375 20.4195L3.54688 20.4645C4.0541 19.6531 4.39014 18.7466 4.53437 17.8007C4.55252 17.6837 4.53708 17.564 4.48983 17.4554C4.44258 17.3469 4.36548 17.254 4.2675 17.1876C3.45582 16.6948 2.77847 16.0091 2.29565 15.1914C1.81284 14.3737 1.53952 13.4494 1.5 12.5007C1.5 9.05445 5.145 6.2507 9.625 6.2507C14.105 6.2507 17.75 9.05445 17.75 12.5007C17.75 15.947 14.105 18.7507 9.625 18.7507C8.82941 18.7508 8.03647 18.6591 7.26188 18.4776C7.13459 18.4476 7.00112 18.4584 6.88026 18.5083C6.75939 18.5581 6.65722 18.6447 6.58812 18.7557C6.30459 19.2152 5.91989 19.6038 5.46335 19.892C5.00681 20.1803 4.49049 20.3611 3.95375 20.4195ZM19.955 37.5007H18.045C17.5072 37.5024 16.975 37.3921 16.4822 37.1769C15.9894 36.9617 15.5468 36.6463 15.1825 36.2507H22.8175C22.4532 36.6463 22.0106 36.9617 21.5178 37.1769C21.025 37.3921 20.4928 37.5024 19.955 37.5007ZM26.5 34.3757C26.5 34.5415 26.4342 34.7004 26.3169 34.8176C26.1997 34.9349 26.0408 35.0007 25.875 35.0007H12.125C11.9592 35.0007 11.8003 34.9349 11.6831 34.8176C11.5658 34.7004 11.5 34.5415 11.5 34.3757C11.5 34.2099 11.5658 34.051 11.6831 33.9338C11.8003 33.8166 11.9592 33.7507 12.125 33.7507H25.875C26.0408 33.7507 26.1997 33.8166 26.3169 33.9338C26.4342 34.051 26.5 34.2099 26.5 34.3757ZM24.625 32.5007H13.375V31.2507H24.625V32.5007ZM26.5 29.3757C26.5 29.5415 26.4342 29.7004 26.3169 29.8176C26.1997 29.9349 26.0408 30.0007 25.875 30.0007H12.125C11.9592 30.0007 11.8003 29.9349 11.6831 29.8176C11.5658 29.7004 11.5 29.5415 11.5 29.3757C11.5 29.2099 11.5658 29.051 11.6831 28.9338C11.8003 28.8166 11.9592 28.7507 12.125 28.7507H25.875C26.0408 28.7507 26.1997 28.8166 26.3169 28.9338C26.4342 29.051 26.5 29.2099 26.5 29.3757ZM24.6594 27.5007H13.34C13.261 26.7209 13.0277 25.9646 12.6538 25.2758C12.2798 24.5869 11.7727 23.9793 11.1619 23.4882C9.9296 22.4907 8.89618 21.27 8.11562 19.8901C8.61581 19.9597 9.12 19.9967 9.625 20.0007C14.7944 20.0007 19 16.6363 19 12.5007C19 8.4832 15.0281 5.20258 10.0625 5.0182C11.5039 3.53879 13.2901 2.4405 15.2608 1.82194C17.2314 1.20337 19.3249 1.0839 21.3531 1.47424C23.3814 1.86459 25.281 2.75254 26.8813 4.05836C28.4816 5.36418 29.7326 7.04699 30.5219 8.9557C29.8142 8.82074 29.0954 8.75211 28.375 8.7507C23.2056 8.7507 19 12.1151 19 16.2507C19 19.9251 22.3225 22.9845 26.6875 23.6257C25.5391 24.6091 24.8129 25.9966 24.6594 27.5007ZM34.0462 24.1688C33.5095 24.1104 32.9932 23.9303 32.5366 23.642C32.0801 23.3538 31.6954 22.9652 31.4119 22.5057C31.3428 22.3947 31.2406 22.3081 31.1197 22.2583C30.9989 22.2084 30.8654 22.1976 30.7381 22.2276C29.9635 22.4091 29.1706 22.5008 28.375 22.5007C23.895 22.5007 20.25 19.697 20.25 16.2507C20.25 12.8045 23.895 10.0007 28.375 10.0007C32.855 10.0007 36.5 12.8045 36.5 16.2507C36.4606 17.1996 36.1873 18.124 35.7045 18.9417C35.2217 19.7595 34.5443 20.4453 33.7325 20.9382C33.6345 21.0046 33.5574 21.0975 33.5102 21.2061C33.4629 21.3146 33.4475 21.4343 33.4656 21.5513C33.6099 22.4973 33.9459 23.4037 34.4531 24.2151L34.0462 24.1688Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M5.25 13.7507C5.94036 13.7507 6.5 13.1911 6.5 12.5007C6.5 11.8104 5.94036 11.2507 5.25 11.2507C4.55964 11.2507 4 11.8104 4 12.5007C4 13.1911 4.55964 13.7507 5.25 13.7507Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M9.625 13.7507C10.3154 13.7507 10.875 13.1911 10.875 12.5007C10.875 11.8104 10.3154 11.2507 9.625 11.2507C8.93464 11.2507 8.375 11.8104 8.375 12.5007C8.375 13.1911 8.93464 13.7507 9.625 13.7507Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M14 13.7507C14.6904 13.7507 15.25 13.1911 15.25 12.5007C15.25 11.8104 14.6904 11.2507 14 11.2507C13.3096 11.2507 12.75 11.8104 12.75 12.5007C12.75 13.1911 13.3096 13.7507 14 13.7507Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M24 17.5007C24.6904 17.5007 25.25 16.9411 25.25 16.2507C25.25 15.5604 24.6904 15.0007 24 15.0007C23.3096 15.0007 22.75 15.5604 22.75 16.2507C22.75 16.9411 23.3096 17.5007 24 17.5007Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M28.375 17.5007C29.0654 17.5007 29.625 16.9411 29.625 16.2507C29.625 15.5604 29.0654 15.0007 28.375 15.0007C27.6846 15.0007 27.125 15.5604 27.125 16.2507C27.125 16.9411 27.6846 17.5007 28.375 17.5007Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M32.75 17.5007C33.4404 17.5007 34 16.9411 34 16.2507C34 15.5604 33.4404 15.0007 32.75 15.0007C32.0596 15.0007 31.5 15.5604 31.5 16.2507C31.5 16.9411 32.0596 17.5007 32.75 17.5007Z"
+                  fill="#FFFFFF"
                 />
               </svg>
             </div>
             <div className="relative z-10">
               <h1 className="font-semibold text-white text-22">
-                Keyword Research
+              Our Vision
               </h1>
               <p className="mt-4 transition-all duration-300 group-hover:text-white text-white/50">
-                They identify relevant keywords and phrases that potential
-                customers use search for products, services, or information
-                related to their' businesses.
+                To become Southeast Asia's leading AI company, pioneering innovations in remote sensing, computer vision, and geospatial technologies to create smarter, sustainable solutions for businesses and communities.
               </p>
-              <Link to="/service-details">
-                <div className="flex items-center gap-2 mt-4 group">
-                  <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                    Read More
-                  </span>
-                  <svg
-                    width="7"
-                    height="11"
-                    viewBox="0 0 7 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                      stroke="#ffff"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </div>
-              </Link>
+              
             </div>
           </div>
           {/* <!-- single card end --> */}
@@ -149,718 +155,43 @@ export default function ServiceTwo() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M15.25 15.25H42.75M15.25 29H29M40 42.75L48.25 56.5M18 42.75L9.75 56.5M29 42.75V51M48.25 1.5L9.75 1.5C5.19365 1.5 1.5 5.19365 1.5 9.75L1.5 34.5C1.5 39.0563 5.19365 42.75 9.75 42.75L48.25 42.75C52.8063 42.75 56.5 39.0563 56.5 34.5L56.5 9.75C56.5 5.19366 52.8064 1.5 48.25 1.5Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M22.8626 16.8756L18.0006 21.7376L17.1386 20.8756C16.877 20.623 16.4612 20.6266 16.2041 20.8837C15.9469 21.1409 15.9433 21.5567 16.1959 21.8183L17.5293 23.1516C17.7896 23.4119 18.2116 23.4119 18.4719 23.1516L23.8053 17.8183C24.0579 17.5567 24.0543 17.1409 23.7971 16.8837C23.54 16.6266 23.1242 16.623 22.8626 16.8756Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M30.6673 21.347C30.6346 21.347 30.6059 21.347 30.5746 21.347C31.0107 18.0746 29.8972 14.7858 27.5628 12.4514C25.2284 10.117 21.9397 9.00353 18.6673 9.43963C18.6673 9.40829 18.6673 9.37963 18.6673 9.34696C18.6732 4.98909 15.6626 1.20715 11.4144 0.235752C7.16617 -0.735642 2.81116 1.3621 0.922595 5.28949C-0.965971 9.21688 0.114645 13.9284 3.52594 16.6403C3.53661 16.6516 3.55194 16.6576 3.56328 16.6683C4.41055 17.3397 5.36816 17.8585 6.39328 18.2016C6.40661 18.2076 6.42061 18.2116 6.43461 18.217C7.37039 18.5241 8.34905 18.6805 9.33394 18.6803H9.42661C8.99052 21.9527 10.104 25.2415 12.4384 27.5759C14.7728 29.9102 18.0615 31.0237 21.3339 30.5876V30.6803C21.3354 33.5218 22.6335 36.2073 24.8593 37.9736C24.8699 37.985 24.8853 37.991 24.8966 38.0016C25.7439 38.673 26.7015 39.1918 27.7266 39.535C27.7399 39.541 27.7539 39.545 27.7679 39.5503C29.6512 40.1728 31.6847 40.1728 33.5679 39.5503C33.5819 39.545 33.5959 39.541 33.6093 39.535C34.6343 39.192 35.5917 38.6731 36.4386 38.0016C36.4506 37.991 36.466 37.985 36.4766 37.9736C39.5839 35.5059 40.7891 31.3419 39.4803 27.5959C38.1714 23.85 34.6353 21.3426 30.6673 21.347ZM30.6673 32.0136C29.5803 32.02 28.5592 31.4934 27.9342 30.604C27.3092 29.7147 27.1596 28.5755 27.5339 27.555C28.0499 27.0373 28.5114 26.4681 28.9113 25.8563C29.4366 25.5236 30.0455 25.347 30.6673 25.347C32.5082 25.347 34.0006 26.8393 34.0006 28.6803C34.0006 30.5212 32.5082 32.0136 30.6673 32.0136ZM1.33394 9.34696C1.33394 4.92868 4.91567 1.34696 9.33394 1.34696C13.7522 1.34696 17.3339 4.92868 17.3339 9.34696C17.3339 9.47163 17.3299 9.58696 17.3253 9.7003C15.9169 10.066 14.5988 10.7173 13.4526 11.6136C13.093 11.342 12.6951 11.1252 12.2719 10.9703C13.8081 9.72621 14.3938 7.64924 13.7339 5.78588C13.074 3.92253 11.3117 2.67709 9.33494 2.67709C7.35819 2.67709 5.59588 3.92253 4.93599 5.78588C4.27609 7.64924 4.86178 9.72621 6.39794 10.9703C4.79038 11.5618 3.63518 12.9854 3.38728 14.6803C2.06624 13.218 1.3346 11.3176 1.33394 9.34696ZM6.00061 7.34696C6.00061 5.50601 7.49299 4.01363 9.33394 4.01363C11.1749 4.01363 12.6673 5.50601 12.6673 7.34696C12.6673 9.18791 11.1749 10.6803 9.33394 10.6803C7.49391 10.6781 6.00281 9.187 6.00061 7.34696ZM9.33394 17.347C8.6588 17.3445 7.98673 17.256 7.33394 17.0836V15.347C7.33394 14.9788 7.03547 14.6803 6.66728 14.6803C6.29909 14.6803 6.00061 14.9788 6.00061 15.347V16.6136C5.5321 16.3977 5.08558 16.1369 4.66728 15.835V15.347C4.66948 13.5069 6.16057 12.0158 8.00061 12.0136H10.6673C11.288 12.013 11.8962 12.1885 12.4213 12.5196C11.1013 13.8568 10.1584 15.5192 9.68794 17.3383C9.57328 17.343 9.45794 17.347 9.33394 17.347ZM10.6673 20.0136C10.6673 14.859 14.846 10.6803 20.0006 10.6803C25.1553 10.6803 29.3339 14.859 29.3339 20.0136C29.3339 25.1683 25.1553 29.347 20.0006 29.347C14.8482 29.3415 10.6728 25.166 10.6673 20.0136ZM22.6673 30.6803C22.6673 30.5556 22.6713 30.4403 22.6759 30.327C23.866 30.0218 24.9939 29.512 26.0093 28.8203C26.0494 30.177 26.6792 31.4487 27.7339 32.303C26.1252 32.8938 24.9688 34.3178 24.7206 36.0136C23.3996 34.5513 22.6679 32.651 22.6673 30.6803ZM28.6673 38.4136V36.6803C28.6673 36.3121 28.3688 36.0136 28.0006 36.0136C27.6324 36.0136 27.3339 36.3121 27.3339 36.6803V37.947C26.8654 37.731 26.4189 37.4702 26.0006 37.1683V36.6803C26.0028 34.8403 27.4939 33.3492 29.3339 33.347H32.0006C33.8406 33.3492 35.3317 34.8403 35.3339 36.6803V37.165C34.9158 37.4681 34.4693 37.7299 34.0006 37.947V36.6803C34.0006 36.3121 33.7021 36.0136 33.3339 36.0136C32.9658 36.0136 32.6673 36.3121 32.6673 36.6803V38.4136C31.3571 38.7647 29.9775 38.7647 28.6673 38.4136ZM36.6139 36.0136C36.3658 34.3178 35.2094 32.8938 33.6006 32.303C35.1331 31.0585 35.7167 28.9845 35.0582 27.1235C34.3996 25.2625 32.6414 24.0172 30.6673 24.0136C30.3941 24.0158 30.1217 24.0424 29.8533 24.093C30.0392 23.6362 30.1931 23.1671 30.3139 22.689C30.4279 22.6843 30.5433 22.6803 30.6673 22.6803C33.8247 22.6749 36.689 24.5301 37.9751 27.4138C39.2612 30.2974 38.7277 33.6681 36.6139 36.0136Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M23.8049 0.875611C23.5445 0.615356 23.1225 0.615356 22.8622 0.875611L20.8622 2.87561C20.6019 3.13594 20.6019 3.55794 20.8622 3.81828L22.8622 5.81828C23.1238 6.07093 23.5396 6.06731 23.7967 5.81016C24.0539 5.553 24.0575 5.1372 23.8049 4.87561L22.9755 4.04628C31.4122 4.5708 37.9894 11.5606 38.0002 20.0136C38.0002 20.3818 38.2987 20.6803 38.6669 20.6803C39.035 20.6803 39.3335 20.3818 39.3335 20.0136C39.3226 10.8018 32.1165 3.20353 22.9182 2.70494L23.8049 1.81828C24.0651 1.55794 24.0651 1.13594 23.8049 0.875611Z"
+                  fill="#FFFFFF"
+                />
+                <path
+                  className="transition-all duration-300 ease-in-out group-hover:fill-white"
+                  d="M2.00033 20.0136C2.00033 19.6454 1.70185 19.3469 1.33366 19.3469C0.965469 19.3469 0.666992 19.6454 0.666992 20.0136C0.677906 29.2254 7.88403 36.8237 17.0823 37.3223L16.1957 38.2089C16.0224 38.3763 15.9529 38.6242 16.0139 38.8573C16.0749 39.0904 16.2569 39.2724 16.49 39.3334C16.7231 39.3944 16.9709 39.3249 17.1383 39.1516L19.1383 37.1516C19.3986 36.8913 19.3986 36.4693 19.1383 36.2089L17.1383 34.2089C16.8767 33.9563 16.4609 33.9599 16.2038 34.217C15.9466 34.4742 15.943 34.89 16.1957 35.1516L17.025 35.9809C8.58828 35.4564 2.01112 28.4666 2.00033 20.0136Z"
+                  fill="#FFFFFF"
                 />
               </svg>
             </div>
             <div className="relative z-10">
               <h1 className="font-semibold text-white text-22">
-                Website Optimization
+                Our Mission
               </h1>
               <p className="mt-4 transition-all duration-300 group-hover:text-white text-white/50">
-                This involves optimizing various elements to website itself,
-                such as meta tags, headers, content, an internal linking
-                structure to make them more search
+              We harness AI, remote sensing, and geospatial technologies to deliver innovative solutions
+              that help Southeast Asian businesses optimize operations and create sustainable impact
+              through data-driven decisions.
               </p>
-              <Link to="/service-details">
-                <div className="flex items-center gap-2 mt-4 group">
-                  <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                    Read More
-                  </span>
-                  <svg
-                    width="7"
-                    height="11"
-                    viewBox="0 0 7 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                      stroke="#ffff"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </div>
-              </Link>
+              
             </div>
           </div>
-          {/* <!-- single card end --> */}
-          {/* <!-- single card start --> */}
-          <div
-            data-aos-duration="1000"
-            data-aos="fade-left"
-            data-aos-delay="200"
-            className="col-span-1 p-5 md:p-[50px] rounded-3xl flex flex-col md:flex-row gap-[50px] relative overflow-hidden group border border-white/5 transition-all duration-300 before:inline-block before:w-[1000px] before:h-[1000px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[1000px] before:-right-[1000px] before:transition-all before:duration-1000 hover:before:-bottom-[300px] hover:before:-right-[100px]"
-          >
-            {/* <!-- animation circle  --> */}
-            <div className="absolute z-0 items-center justify-center hidden w-2 h-2 -bottom-1 -right-1 group-hover:flex">
-              <div className="animated_circle_sm bg-white/10"></div>
-              <div className="animated_circle_sm2 bg-white/10"></div>
-              <div className="animated_circle_sm3 bg-white/10"></div>
-              <div className="animated_circle_sm4 bg-white/10"></div>
-            </div>
-            <div className="relative z-10">
-              <svg
-                width="56"
-                height="56"
-                viewBox="0 0 56 56"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M41.833 51.0001V41.8334H50.9997"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M5.16602 14.3331L14.3327 14.3331L14.3327 5.16644"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M34.958 21.2081L21.208 34.9582"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M23.5 14.3333L33.0074 4.82589C35.3505 2.48275 39.1495 2.48275 41.4926 4.82589L51.3407 14.674C53.6839 17.0171 53.6839 20.8161 51.3407 23.1593L41.8333 32.6667"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M32.6661 41.8332L23.1587 51.3406C20.8155 53.6838 17.0165 53.6838 14.6734 51.3406L4.82528 41.4925C2.48213 39.1494 2.48213 35.3504 4.82528 33.0072L14.3327 23.4998"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </div>
-            <div className="relative z-10">
-              <h1 className="font-semibold text-white text-22">
-                Link Building
-              </h1>
-              <p className="mt-4 transition-all duration-300 group-hover:text-white text-white/50">
-                They identify relevant keywords and phrases that potential
-                customers use search for products, services, or information
-                related to their' businesses.
-              </p>
-              <Link to="/service-details">
-                <div className="flex items-center gap-2 mt-4 group">
-                  <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                    Read More
-                  </span>
-                  <svg
-                    width="7"
-                    height="11"
-                    viewBox="0 0 7 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                      stroke="#ffff"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </div>
-              </Link>
-            </div>
-          </div>
-          {/* <!-- single card end --> */}
-          {/* <!-- single card start --> */}
-          <div
-            data-aos-duration="1000"
-            data-aos="fade-left"
-            data-aos-delay="300"
-            className="col-span-1 p-5 md:p-[50px] rounded-3xl flex flex-col md:flex-row gap-[50px] relative overflow-hidden group border border-white/5 transition-all duration-300 before:inline-block before:w-[1000px] before:h-[1000px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[1000px] before:-right-[1000px] before:transition-all before:duration-1000 hover:before:-bottom-[300px] hover:before:-right-[100px]"
-          >
-            {/* <!-- animation circle  --> */}
-            <div className="absolute z-0 items-center justify-center hidden w-2 h-2 -bottom-1 -right-1 group-hover:flex">
-              <div className="animated_circle_sm bg-white/10"></div>
-              <div className="animated_circle_sm2 bg-white/10"></div>
-              <div className="animated_circle_sm3 bg-white/10"></div>
-              <div className="animated_circle_sm4 bg-white/10"></div>
-            </div>
-            <div className="relative z-10">
-              <svg
-                width="58"
-                height="58"
-                viewBox="0 0 58 58"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.58301 14.3333V2.58325C1.58301 2.03097 2.03072 1.58325 2.58301 1.58325H14.333C14.8853 1.58325 15.333 2.03097 15.333 2.58325V14.3333C15.333 14.8855 14.8853 15.3333 14.333 15.3333H2.58301C2.03072 15.3333 1.58301 14.8855 1.58301 14.3333Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M42.833 14.3333V2.58325C42.833 2.03097 43.2807 1.58325 43.833 1.58325H55.583C56.1353 1.58325 56.583 2.03097 56.583 2.58325V14.3333C56.583 14.8855 56.1353 15.3333 55.583 15.3333H43.833C43.2807 15.3333 42.833 14.8855 42.833 14.3333Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M42.833 55.5833V43.8333C42.833 43.281 43.2807 42.8333 43.833 42.8333H55.583C56.1353 42.8333 56.583 43.281 56.583 43.8333V55.5833C56.583 56.1355 56.1353 56.5833 55.583 56.5833H43.833C43.2807 56.5833 42.833 56.1355 42.833 55.5833Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M1.58301 55.5833V43.8333C1.58301 43.281 2.03072 42.8333 2.58301 42.8333H14.333C14.8853 42.8333 15.333 43.281 15.333 43.8333V55.5833C15.333 56.1355 14.8853 56.5833 14.333 56.5833H2.58301C2.03072 56.5833 1.58301 56.1355 1.58301 55.5833Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M23.583 31.8335H34.583"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M20.833 37.3333L29.083 18.0833L37.333 37.3333"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M15.333 8.45837H42.833M49.708 15.3334V42.8334M42.833 49.7084H15.333M8.45801 42.8334V15.3334"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </div>
-            <div className="relative z-10">
-              <h1 className="mt-4 transition-all duration-300 delay-300 group-hover:text-white text-white/50">
-                Content Marketing
-              </h1>
-              <p className="mt-4 text-white">
-                Content marketing strategic approach that focuses on creating a
-                distributing valuable, relevant, consistent content to attract
-                and engage a target audience.
-              </p>
-              <Link to="/service-details">
-                <div className="flex items-center gap-2 mt-4 group">
-                  <span className="relative font-medium leading-5 text-white border-b border-transparent font-inter before:inline-block before:border-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5">
-                    Read More
-                  </span>
-                  <svg
-                    width="7"
-                    height="11"
-                    viewBox="0 0 7 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                      stroke="#ffff"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </div>
-              </Link>
-            </div>
-          </div>
+          
+          
           {/* <!-- single card end --> */}
         </div>
-        {/* <!-- case study start  --> */}
-        <div className="pt-16 md:pt-[130px]" id="caseStudies">
-          <p className="px-5 py-1 text-white rounded-[30px] bg-blue-seo font-medium w-fit">
-            Case Studies
-          </p>
-          <div className="flex flex-col items-end justify-between w-full mt-5 sm:flex-row">
-            <h1 className="max-w-[660px] text-24 sm:text-48 text-white font-semibold">
-              Not Convinced? Take a look at some of our case studies
-            </h1>
-            <div className="flex gap-2.5">
-              <button className="h2-case-study-next w-8 h-8 sm:w-11 sm:h-11 rounded-full border-[1.5px] border-white/10 flex items-center justify-center overflow-hidden before:inline-block before:w-11 before:h-11 before:border-[1.5px] before:border-blue-seo before:bg-blue-seo relative before:absolute before:z-0 before:-right-12 hover:before:right-0 before:transition-all before:duration-300">
-                <svg
-                  className="relative z-10 pointer-events-none"
-                  width="16"
-                  height="13"
-                  viewBox="0 0 16 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6.25 12L1 6.75M1 6.75L6.25 1.5M1 6.75L15 6.75"
-                    stroke="white"
-                    strokeOpacity="0.55"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-              <button className="h2-case-study-prev rotate-180 w-8 h-8 sm:w-11 sm:h-11 rounded-full border-[1.5px] border-white/10 flex items-center justify-center overflow-hidden before:inline-block before:w-11 before:h-11 before:border-[1.5px] before:border-blue-seo before:bg-blue-seo relative before:absolute before:z-0 before:-right-12 hover:before:right-0 before:transition-all before:duration-300">
-                <svg
-                  className="relative z-10 pointer-events-none"
-                  width="16"
-                  height="13"
-                  viewBox="0 0 16 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6.25 12L1 6.75M1 6.75L6.25 1.5M1 6.75L15 6.75"
-                    stroke="white"
-                    strokeOpacity="0.55"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <Swiper
-            {...swiperOptions}
-            className="mt-10 overflow-hidden swiper case_study_slider md:mt-16"
-          >
-            <SwiperSlide>
-              {" "}
-              <div className="bg-white rounded-[20px] pt-7 pb-5 px-2.5 relative group overflow-hidden transition-all duration-300 before:inline-block before:w-[800px] before:h-[800px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[800px] before:-right-[800px] before:transition-all before:duration-1000 hover:before:-bottom-[150px] hover:before:-right-[150px]">
-                <div className="relative z-10 px-2 md:px-10">
-                  <p className="font-semibold leading-6 transition-all duration-300 ease-in-out delay-300 text-blue-seo group-hover:text-white">
-                    SEO Optimization
-                  </p>
-                  <a href="">
-                    <h1 className="pt-1 font-semibold transition-all duration-300 text-24 text-main-black group-hover:text-white underlines">
-                      How we helped improve Company users retention
-                    </h1>
-                  </a>
-                </div>
-                <img
-                  src="./assets/images/home-two/case_study/1.svg"
-                  alt=""
-                  className="max-w-[390px] w-full rounded-2xl mt-10 relative z-10"
-                />
-                <div className="relative z-10 flex justify-between px-10 mt-4">
-                  <Link to="/service-details">
-                    <div className="flex items-center gap-2 group">
-                      <span className="transition-all duration-300 font-medium group-hover:text-white text-paragraph leading-5 font-inter border-b border-transparent before:inline-block before:border-white before:content-['Read More'] before:text-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative">
-                        Read More
-                      </span>
-                      <svg
-                        width="7"
-                        height="11"
-                        viewBox="0 0 7 11"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          className="transition-all duration-300 group-hover:stroke-white"
-                          d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                          stroke="#6D6D6D"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </Link>
-                  <button aria-label="share">
-                    <svg
-                      className=""
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="transition-all duration-300 group-hover:stroke-white"
-                        d="M7.63118 9.43441C7.05656 8.2874 5.87023 7.5 4.5 7.5C2.567 7.5 1 9.067 1 11C1 12.933 2.567 14.5 4.5 14.5C5.87023 14.5 7.05656 13.7126 7.63118 12.5656M7.63118 9.43441C7.86718 9.90549 8 10.4372 8 11C8 11.5628 7.86718 12.0945 7.63118 12.5656M7.63118 9.43441L14.3688 6.06559M7.63118 12.5656L14.3688 15.9344M14.3688 6.06559C14.9434 7.2126 16.1298 8 17.5 8C19.433 8 21 6.433 21 4.5C21 2.567 19.433 1 17.5 1C15.567 1 14 2.567 14 4.5C14 5.06276 14.1328 5.59451 14.3688 6.06559ZM14.3688 15.9344C14.1328 16.4055 14 16.9372 14 17.5C14 19.433 15.567 21 17.5 21C19.433 21 21 19.433 21 17.5C21 15.567 19.433 14 17.5 14C16.1298 14 14.9434 14.7874 14.3688 15.9344Z"
-                        stroke="#5D51F2"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                {/* <!-- animation circle  --> */}
-                <div className="absolute z-0 items-center justify-center hidden w-2 h-2 bottom-10 -right-1 group-hover:flex">
-                  <div className="animated_circle_sm bg-white/10"></div>
-                  <div className="animated_circle_sm2 bg-white/10"></div>
-                  <div className="animated_circle_sm3 bg-white/10"></div>
-                  <div className="animated_circle_sm4 bg-white/10"></div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <div className="bg-white rounded-[20px] pt-7 pb-5 px-2.5 relative group overflow-hidden transition-all duration-300 before:inline-block before:w-[800px] before:h-[800px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[800px] before:-right-[800px] before:transition-all before:duration-1000 hover:before:-bottom-[150px] hover:before:-right-[150px]">
-                <div className="relative z-10 px-2 md:px-10">
-                  <p className="font-semibold leading-6 transition-all duration-300 ease-in-out delay-300 text-blue-seo group-hover:text-white">
-                    Keywords Research
-                  </p>
-                  <a href="">
-                    <h1 className="pt-1 font-semibold transition-all duration-300 text-24 text-main-black group-hover:text-white underlines">
-                      How we helped improve keywords research users
-                    </h1>
-                  </a>
-                </div>
-                <img
-                  src="./assets/images/home-two/case_study/2.svg"
-                  alt=""
-                  className="max-w-[390px] w-full rounded-2xl mt-10 relative z-10"
-                />
-                <div className="relative z-10 flex justify-between px-10 mt-4">
-                  <Link to="/service-details">
-                    <div className="flex items-center gap-2 group">
-                      <span className="transition-all duration-300 font-medium group-hover:text-white text-paragraph leading-5 font-inter border-b border-transparent before:inline-block before:border-white before:content-['Read More'] before:text-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative">
-                        Read More
-                      </span>
-                      <svg
-                        width="7"
-                        height="11"
-                        viewBox="0 0 7 11"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          className="transition-all duration-300 group-hover:stroke-white"
-                          d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                          stroke="#6D6D6D"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </Link>
-                  <button aria-label="share">
-                    <svg
-                      className=""
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="transition-all duration-300 group-hover:stroke-white"
-                        d="M7.63118 9.43441C7.05656 8.2874 5.87023 7.5 4.5 7.5C2.567 7.5 1 9.067 1 11C1 12.933 2.567 14.5 4.5 14.5C5.87023 14.5 7.05656 13.7126 7.63118 12.5656M7.63118 9.43441C7.86718 9.90549 8 10.4372 8 11C8 11.5628 7.86718 12.0945 7.63118 12.5656M7.63118 9.43441L14.3688 6.06559M7.63118 12.5656L14.3688 15.9344M14.3688 6.06559C14.9434 7.2126 16.1298 8 17.5 8C19.433 8 21 6.433 21 4.5C21 2.567 19.433 1 17.5 1C15.567 1 14 2.567 14 4.5C14 5.06276 14.1328 5.59451 14.3688 6.06559ZM14.3688 15.9344C14.1328 16.4055 14 16.9372 14 17.5C14 19.433 15.567 21 17.5 21C19.433 21 21 19.433 21 17.5C21 15.567 19.433 14 17.5 14C16.1298 14 14.9434 14.7874 14.3688 15.9344Z"
-                        stroke="#5D51F2"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                {/* <!-- animation circle  --> */}
-                <div className="absolute z-0 items-center justify-center hidden w-2 h-2 bottom-10 -right-1 group-hover:flex">
-                  <div className="animated_circle_sm bg-white/10"></div>
-                  <div className="animated_circle_sm2 bg-white/10"></div>
-                  <div className="animated_circle_sm3 bg-white/10"></div>
-                  <div className="animated_circle_sm4 bg-white/10"></div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-white rounded-[20px] pt-7 pb-5 px-2.5 relative group overflow-hidden transition-all duration-300 before:inline-block before:w-[800px] before:h-[800px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[800px] before:-right-[800px] before:transition-all before:duration-1000 hover:before:-bottom-[150px] hover:before:-right-[150px]">
-                <div className="relative z-10 px-2 md:px-10">
-                  <p className="font-semibold leading-6 transition-all duration-300 ease-in-out delay-300 text-blue-seo group-hover:text-white">
-                    Content Marketing
-                  </p>
-                  <a href="">
-                    <h1 className="pt-1 font-semibold transition-all duration-300 text-24 text-main-black group-hover:text-white underlines">
-                      How we helped improve Company users retention
-                    </h1>
-                  </a>
-                </div>
-                <img
-                  src="./assets/images/home-two/case_study/1.svg"
-                  alt=""
-                  className="max-w-[390px] w-full rounded-2xl mt-10 relative z-10"
-                />
-                <div className="relative z-10 flex justify-between px-10 mt-4">
-                  <Link to="/service-details">
-                    <div className="flex items-center gap-2 group">
-                      <span className="transition-all duration-300 font-medium group-hover:text-white text-paragraph leading-5 font-inter border-b border-transparent before:inline-block before:border-white before:content-['Read More'] before:text-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative">
-                        Read More
-                      </span>
-                      <svg
-                        width="7"
-                        height="11"
-                        viewBox="0 0 7 11"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          className="transition-all duration-300 group-hover:stroke-white"
-                          d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                          stroke="#6D6D6D"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </Link>
-                  <button aria-label="share">
-                    <svg
-                      className=""
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="transition-all duration-300 group-hover:stroke-white"
-                        d="M7.63118 9.43441C7.05656 8.2874 5.87023 7.5 4.5 7.5C2.567 7.5 1 9.067 1 11C1 12.933 2.567 14.5 4.5 14.5C5.87023 14.5 7.05656 13.7126 7.63118 12.5656M7.63118 9.43441C7.86718 9.90549 8 10.4372 8 11C8 11.5628 7.86718 12.0945 7.63118 12.5656M7.63118 9.43441L14.3688 6.06559M7.63118 12.5656L14.3688 15.9344M14.3688 6.06559C14.9434 7.2126 16.1298 8 17.5 8C19.433 8 21 6.433 21 4.5C21 2.567 19.433 1 17.5 1C15.567 1 14 2.567 14 4.5C14 5.06276 14.1328 5.59451 14.3688 6.06559ZM14.3688 15.9344C14.1328 16.4055 14 16.9372 14 17.5C14 19.433 15.567 21 17.5 21C19.433 21 21 19.433 21 17.5C21 15.567 19.433 14 17.5 14C16.1298 14 14.9434 14.7874 14.3688 15.9344Z"
-                        stroke="#5D51F2"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                {/* <!-- animation circle  --> */}
-                <div className="absolute z-0 items-center justify-center hidden w-2 h-2 bottom-10 -right-1 group-hover:flex">
-                  <div className="animated_circle_sm bg-white/10"></div>
-                  <div className="animated_circle_sm2 bg-white/10"></div>
-                  <div className="animated_circle_sm3 bg-white/10"></div>
-                  <div className="animated_circle_sm4 bg-white/10"></div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-white rounded-[20px] pt-7 pb-5 px-2.5 relative group overflow-hidden transition-all duration-300 before:inline-block before:w-[800px] before:h-[800px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[800px] before:-right-[800px] before:transition-all before:duration-1000 hover:before:-bottom-[150px] hover:before:-right-[150px]">
-                <div className="relative z-10 px-2 md:px-10">
-                  <p className="font-semibold leading-6 transition-all duration-300 ease-in-out delay-300 text-blue-seo group-hover:text-white">
-                    SEO Optimization
-                  </p>
-                  <a href="">
-                    <h1 className="pt-1 font-semibold transition-all duration-300 text-24 text-main-black group-hover:text-white underlines">
-                      How we helped improve Company users retention
-                    </h1>
-                  </a>
-                </div>
-                <img
-                  src="./assets/images/home-two/case_study/1.svg"
-                  alt=""
-                  className="max-w-[390px] w-full rounded-2xl mt-10 relative z-10"
-                />
-                <div className="relative z-10 flex justify-between px-10 mt-4">
-                  <Link to="/service-details">
-                    <div className="flex items-center gap-2 group">
-                      <span className="transition-all duration-300 font-medium group-hover:text-white text-paragraph leading-5 font-inter border-b border-transparent before:inline-block before:border-white before:content-['Read More'] before:text-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative">
-                        Read More
-                      </span>
-                      <svg
-                        width="7"
-                        height="11"
-                        viewBox="0 0 7 11"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          className="transition-all duration-300 group-hover:stroke-white"
-                          d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                          stroke="#6D6D6D"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </Link>
-                  <button aria-label="share">
-                    <svg
-                      className=""
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="transition-all duration-300 group-hover:stroke-white"
-                        d="M7.63118 9.43441C7.05656 8.2874 5.87023 7.5 4.5 7.5C2.567 7.5 1 9.067 1 11C1 12.933 2.567 14.5 4.5 14.5C5.87023 14.5 7.05656 13.7126 7.63118 12.5656M7.63118 9.43441C7.86718 9.90549 8 10.4372 8 11C8 11.5628 7.86718 12.0945 7.63118 12.5656M7.63118 9.43441L14.3688 6.06559M7.63118 12.5656L14.3688 15.9344M14.3688 6.06559C14.9434 7.2126 16.1298 8 17.5 8C19.433 8 21 6.433 21 4.5C21 2.567 19.433 1 17.5 1C15.567 1 14 2.567 14 4.5C14 5.06276 14.1328 5.59451 14.3688 6.06559ZM14.3688 15.9344C14.1328 16.4055 14 16.9372 14 17.5C14 19.433 15.567 21 17.5 21C19.433 21 21 19.433 21 17.5C21 15.567 19.433 14 17.5 14C16.1298 14 14.9434 14.7874 14.3688 15.9344Z"
-                        stroke="#5D51F2"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                {/* <!-- animation circle  --> */}
-                <div className="absolute z-0 items-center justify-center hidden w-2 h-2 bottom-10 -right-1 group-hover:flex">
-                  <div className="animated_circle_sm bg-white/10"></div>
-                  <div className="animated_circle_sm2 bg-white/10"></div>
-                  <div className="animated_circle_sm3 bg-white/10"></div>
-                  <div className="animated_circle_sm4 bg-white/10"></div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-white rounded-[20px] pt-7 pb-5 px-2.5 relative group overflow-hidden transition-all duration-300 before:inline-block before:w-[800px] before:h-[800px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[800px] before:-right-[800px] before:transition-all before:duration-1000 hover:before:-bottom-[150px] hover:before:-right-[150px]">
-                <div className="relative z-10 px-2 md:px-10">
-                  <p className="font-semibold leading-6 transition-all duration-300 ease-in-out delay-300 text-blue-seo group-hover:text-white">
-                    Keywords Research
-                  </p>
-                  <a href="">
-                    <h1 className="pt-1 font-semibold transition-all duration-300 text-24 text-main-black group-hover:text-white underlines">
-                      How we helped improve keywords research users
-                    </h1>
-                  </a>
-                </div>
-                <img
-                  src="./assets/images/home-two/case_study/2.svg"
-                  alt=""
-                  className="max-w-[390px] w-full rounded-2xl mt-10 relative z-10"
-                />
-                <div className="relative z-10 flex justify-between px-10 mt-4">
-                  <Link to="/service-details">
-                    <div className="flex items-center gap-2 group">
-                      <span className="transition-all duration-300 font-medium group-hover:text-white text-paragraph leading-5 font-inter border-b border-transparent before:inline-block before:border-white before:content-['Read More'] before:text-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative">
-                        Read More
-                      </span>
-                      <svg
-                        width="7"
-                        height="11"
-                        viewBox="0 0 7 11"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          className="transition-all duration-300 group-hover:stroke-white"
-                          d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                          stroke="#6D6D6D"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </Link>
-                  <button aria-label="share">
-                    <svg
-                      className=""
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="transition-all duration-300 group-hover:stroke-white"
-                        d="M7.63118 9.43441C7.05656 8.2874 5.87023 7.5 4.5 7.5C2.567 7.5 1 9.067 1 11C1 12.933 2.567 14.5 4.5 14.5C5.87023 14.5 7.05656 13.7126 7.63118 12.5656M7.63118 9.43441C7.86718 9.90549 8 10.4372 8 11C8 11.5628 7.86718 12.0945 7.63118 12.5656M7.63118 9.43441L14.3688 6.06559M7.63118 12.5656L14.3688 15.9344M14.3688 6.06559C14.9434 7.2126 16.1298 8 17.5 8C19.433 8 21 6.433 21 4.5C21 2.567 19.433 1 17.5 1C15.567 1 14 2.567 14 4.5C14 5.06276 14.1328 5.59451 14.3688 6.06559ZM14.3688 15.9344C14.1328 16.4055 14 16.9372 14 17.5C14 19.433 15.567 21 17.5 21C19.433 21 21 19.433 21 17.5C21 15.567 19.433 14 17.5 14C16.1298 14 14.9434 14.7874 14.3688 15.9344Z"
-                        stroke="#5D51F2"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                {/* <!-- animation circle  --> */}
-                <div className="absolute z-0 items-center justify-center hidden w-2 h-2 bottom-10 -right-1 group-hover:flex">
-                  <div className="animated_circle_sm bg-white/10"></div>
-                  <div className="animated_circle_sm2 bg-white/10"></div>
-                  <div className="animated_circle_sm3 bg-white/10"></div>
-                  <div className="animated_circle_sm4 bg-white/10"></div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-white rounded-[20px] pt-7 pb-5 px-2.5 relative group overflow-hidden transition-all duration-300 before:inline-block before:w-[800px] before:h-[800px] before:rounded-full before:bg-blue-seo before:absolute before:z-0 z-10 before:-bottom-[800px] before:-right-[800px] before:transition-all before:duration-1000 hover:before:-bottom-[150px] hover:before:-right-[150px]">
-                <div className="relative z-10 px-2 md:px-10">
-                  <p className="font-semibold leading-6 transition-all duration-300 ease-in-out delay-300 text-blue-seo group-hover:text-white">
-                    Content Marketing
-                  </p>
-                  <a href="">
-                    <h1 className="pt-1 font-semibold transition-all duration-300 text-24 text-main-black group-hover:text-white underlines">
-                      How we helped improve Company users retention
-                    </h1>
-                  </a>
-                </div>
-                <img
-                  src="./assets/images/home-two/case_study/1.svg"
-                  alt=""
-                  className="max-w-[390px] w-full rounded-2xl mt-10 relative z-10"
-                />
-                <div className="relative z-10 flex justify-between px-10 mt-4">
-                  <Link to="/service-details">
-                    <div className="flex items-center gap-2 group">
-                      <span className="transition-all duration-300 font-medium group-hover:text-white text-paragraph leading-5 font-inter border-b border-transparent before:inline-block before:border-white before:content-['Read More'] before:text-white before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative">
-                        Read More
-                      </span>
-                      <svg
-                        width="7"
-                        height="11"
-                        viewBox="0 0 7 11"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          className="transition-all duration-300 group-hover:stroke-white"
-                          d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
-                          stroke="#6D6D6D"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </Link>
-                  <button aria-label="share">
-                    <svg
-                      className=""
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        className="transition-all duration-300 group-hover:stroke-white"
-                        d="M7.63118 9.43441C7.05656 8.2874 5.87023 7.5 4.5 7.5C2.567 7.5 1 9.067 1 11C1 12.933 2.567 14.5 4.5 14.5C5.87023 14.5 7.05656 13.7126 7.63118 12.5656M7.63118 9.43441C7.86718 9.90549 8 10.4372 8 11C8 11.5628 7.86718 12.0945 7.63118 12.5656M7.63118 9.43441L14.3688 6.06559M7.63118 12.5656L14.3688 15.9344M14.3688 6.06559C14.9434 7.2126 16.1298 8 17.5 8C19.433 8 21 6.433 21 4.5C21 2.567 19.433 1 17.5 1C15.567 1 14 2.567 14 4.5C14 5.06276 14.1328 5.59451 14.3688 6.06559ZM14.3688 15.9344C14.1328 16.4055 14 16.9372 14 17.5C14 19.433 15.567 21 17.5 21C19.433 21 21 19.433 21 17.5C21 15.567 19.433 14 17.5 14C16.1298 14 14.9434 14.7874 14.3688 15.9344Z"
-                        stroke="#5D51F2"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                {/* <!-- animation circle  --> */}
-                <div className="absolute z-0 items-center justify-center hidden w-2 h-2 bottom-10 -right-1 group-hover:flex">
-                  <div className="animated_circle_sm bg-white/10"></div>
-                  <div className="animated_circle_sm2 bg-white/10"></div>
-                  <div className="animated_circle_sm3 bg-white/10"></div>
-                  <div className="animated_circle_sm4 bg-white/10"></div>
-                </div>
-              </div>
-            </SwiperSlide>
-          </Swiper>
-        </div>
-        {/* <!-- case study end  --> */}
       </div>
     </section>
   );

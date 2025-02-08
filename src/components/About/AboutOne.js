@@ -171,7 +171,7 @@ export default function AboutOne() {
                   <span>Remote Sensing Expertise</span>
                 </li>
               </ul>
-              <Link to="/about">
+              <Link to="/about-us">
                 <div className="inline-flex py-3 home-two-btn-bg group bg-blue-sass border-blue-sass">
                   <span className="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-blue-sass font-inter">
                     Learn More

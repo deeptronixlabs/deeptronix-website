@@ -9,7 +9,7 @@ export default function ServiceMain() {
           <div className="relative z-10 mx-auto theme-container">
             <div className="flex flex-col items-center">
               <span className="text-purple font-medium px-5 py-3 border border-[#e7e3fa] leading-none rounded-full inline-block mb-5 bg-white">
-                Explore Services
+                Our Services
               </span>
               <h2 className="sm:text-48 text-24 font-semibold text-main-black mb-[50px] text-center lg:w-[685px] w-full">
               We Always Give More Value Through Innovation To The Business.
