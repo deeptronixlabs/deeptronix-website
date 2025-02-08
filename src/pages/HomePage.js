@@ -2,10 +2,10 @@ import React from "react";
 import HeroOne from "../components/Hero/HeroOne";
 import DemoHeaderOne from "../components/Layout/Header/DemoHeader/DemoHeaderOne";
 import LogoSliderOne from "../components/ClientLogoSlider/LogoSliderOne";
-import AboutOne from "../components/About/AboutOne";
+import AboutDT from "../components/About/AboutOne";
 import FunFactOne from "../components/FunFact/FunFactOne";
 import UnlockingPotential from "../components/Services/ServiceOne";
-import WorkProcessOne from "../components/WorkProcess/WorkProcessOne";
+import SolutionArea from "../components/WorkProcess/WorkProcessOne";
 import CEOstatement from "../components/Testimonials/TestimonialOne";
 import CtaOne from "../components/Cta/DownloadCta";
 import FooterOne from "../components/Layout/Footer/FooterOne";
@@ -19,11 +19,11 @@ export default function HomeOne() {
       <MobileHeader />
       <HeroOne />
       <LogoSliderOne />
-      <AboutOne />
+      <AboutDT />
       <FunFactOne />
       <CEOstatement />
       <UnlockingPotential />
-      <WorkProcessOne />
+      <SolutionArea />
       <CtaOne />
       <FooterOne />
     </PageLayout>
