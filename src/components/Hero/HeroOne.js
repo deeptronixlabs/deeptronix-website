@@ -180,8 +180,13 @@ export default function HeroOne() {
                         Remote Sensing Expertise
                       </span>
                     </div>
-                    <div data-depth="0.50" className="layer h-fit">
+                    {/* <div data-depth="0.50" className="layer h-fit">
                       <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#FF8C05] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none h-fit">
+                        Geospatial Intelligence
+                      </span>
+                    </div> */}
+                    <div data-depth="0.50" className="layer h-fit">
+                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#FF8C05] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none h-fit w-[220px]">
                         Geospatial Intelligence
                       </span>
                     </div>
