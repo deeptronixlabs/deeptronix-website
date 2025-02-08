@@ -160,7 +160,7 @@ export default function TestimonialOne() {
                         </div>
                         <div className="md:px-[70px] px-5">
                           <p className="mb-10 font-semibold text-white text-16 line-clamp-5">
-                          Deeptronix Sdn Bhd combines AI, Quantum Computing, and GIS to provide data-driven solutions, offering advanced dashboards and Responsible AI tools. Their integration of AI with GIS enhances geospatial systems, enabling precise analysis, computer vision, and voice recognition to address industry challenges. The company focuses on innovation, trust, and a sustainable tech-driven future.
+                          Deeptronix Sdn Bhd combines AI, Quantum Computing, and GIS to provide data-driven solutions, offering advanced dashboards and Responsible AI tools. The integration of AI with GIS enhances geospatial systems, enabling precise analysis, computer vision, and voice recognition to address industry challenges. The company focuses on innovation, trust, and a sustainable tech-driven future.
                           </p>
                           <div className="flex items-center space-x-5">
                             <div className="w-[56px] h-[56px] rounded-full overflow-hidden">

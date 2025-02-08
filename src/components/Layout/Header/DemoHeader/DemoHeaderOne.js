@@ -73,7 +73,7 @@ export default function DemoHeaderOne() {
                   </svg>
                 </span>
                 <span className="font-bold text-white">
-                  Email : <u>admin@deeptronix.com.my</u>
+                  Email : <u>sales@deeptronix.com.my</u>
                 </span>
               </div>
             </div>

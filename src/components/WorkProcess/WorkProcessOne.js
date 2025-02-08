@@ -23,7 +23,7 @@ export default function WorkProcessOne() {
               <div className="title-area">
                 <span className="mb-5 section-title-top-tag">Our Solution Areas</span>
                 <h2 className="md:text-48 text-34 font-semibold text-main-black mb-[50px]">
-                We are dedicated to solving complex challenges through innovative and impactful solutions
+                We are dedicated to solve complex challenges through innovative and impactful solutions
                 </h2>
                 <div
                   id="progress-wrapper"

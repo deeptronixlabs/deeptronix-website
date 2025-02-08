@@ -72,7 +72,7 @@ export default function ContactForm() {
               <p className="max-w-[209px] text-paragraph mt-5">
                 Kuala Lumpur, Malaysia
               </p>
-              <p className="mt-1 text-paragraph">admin@deeptronix.com.my</p>
+              <p className="mt-1 text-paragraph">sales@deeptronix.com.my</p>
               <p className="mt-1 text-paragraph">(+60) 14-2273677</p>
             </div>
             

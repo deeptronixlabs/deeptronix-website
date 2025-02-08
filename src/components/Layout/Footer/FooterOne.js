@@ -205,7 +205,7 @@ export default function FooterNine() {
             </h1>
             <div className="flex gap-2 items-center relative group font-medium text-paragraph hover:text-purple hover:underline transition-all duration-300 mt-3.5">
               <span className="transition-all duration-300">
-              admin@deeptronix.com.my <br />
+              sales@deeptronix.com.my <br />
               +6014-2273677
               </span>
             </div>
