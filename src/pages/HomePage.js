@@ -7,7 +7,6 @@ import FunFactOne from "../components/FunFact/FunFactOne";
 import ServiceOne from "../components/Services/ServiceOne";
 import WorkProcessOne from "../components/WorkProcess/WorkProcessOne";
 import TestimonialOne from "../components/Testimonials/TestimonialOne";
-import LatestBlogOne from "../components/LatestBlog/LatestBlogOne";
 import CtaOne from "../components/Cta/DownloadCta";
 import FooterOne from "../components/Layout/Footer/FooterOne";
 import MobileHeader from "../components/Layout/Header/DemoHeader/DemoHeaderMobile";
