@@ -39,7 +39,7 @@ export default function ServiceTwo() {
     >
       <div>
         <img
-          src="./assets/images/home-two/shape-1.svg"
+          src="./assets/images/about/shape-1.svg"
           alt="bg-shape"
           className="absolute bottom-20 moving-anim tran"
         />
